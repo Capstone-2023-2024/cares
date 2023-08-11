@@ -1,0 +1,6 @@
+[submodule "packages/cics-mobile-client"]
+	path = packages/cics-mobile-client
+	url = git@github.com:Capstone-2023-2024/cics-mobile-client.git
+[submodule "packages/cics-web-admin"]
+	path = packages/cics-web-admin
+	url = git@github.com:Capstone-2023-2024/cics-web-admin.git
