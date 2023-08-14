@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "npm run dev --workspaces --if-present",
     "start": "npm run start --workspaces --if-present",
-    "emulator": "npm run emulator --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present"
+    "lint": "npm run lint --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "emulator": "npm run emulator --workspace=cics-mobile-client",
+    "buildApp": "npm run build --workspace=cics-mobile-client",
+    "apprelease": "cd \"./packages/cics-mobile-client/android/app/build/outputs/apk/release\" && explorer ."
   },
   "repository": {
     "type": "git",

@@ -1,9 +1,19 @@
-export interface AnnouncementType {
+interface FromDatabase {
   docId?: string
-  message: string
-  bannerSrc?: string
-  department: "cite"
-  state?: "unpin" | "pin"
+}
+
+interface CreatedFile {
+  photoUrl?: string
   dateCreated: number
   dateEdited?: number
+}
+
+export interface AnnouncementType extends CreatedFile, FromDatabase {
+  message: string
+  department: "cite"
+  state?: "unpin" | "pin"
+}
+
+export interface UniversityScheduleType extends CreatedFile, FromDatabase {
+  title: string
 }
