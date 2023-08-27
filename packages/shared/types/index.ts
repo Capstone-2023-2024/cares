@@ -14,7 +14,7 @@ interface MediaType {
 export interface AnnouncementType extends CreatedFile, FromDatabase, MediaType {
   message: string
   department: "cite"
-  state?: "unpin" | "pin"
+  state: "unpinned" | "pinned"
 }
 
 export interface UniversityScheduleType
@@ -60,3 +60,22 @@ export interface ChatType
 export interface ClientChatType extends ChatConfigType {
   inbox: ChatType[]
 }
+
+export interface DateType {
+  date?: number
+  month: number
+  year: number
+}
+export interface CalendarInArrayType {
+  week: number
+  today: number
+  maxDays: number
+}
+export type WeekNameType =
+  | "sunday"
+  | "monday"
+  | "tuesday"
+  | "wednesday"
+  | "thursday"
+  | "friday"
+  | "saturday"
