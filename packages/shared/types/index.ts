@@ -15,13 +15,7 @@ export interface AnnouncementType extends CreatedFile, FromDatabase, MediaType {
   message: string
   department: "cite"
   state: "unpinned" | "pinned"
-}
-
-export interface UniversityScheduleType
-  extends CreatedFile,
-    FromDatabase,
-    MediaType {
-  title: string
+  markedDates: string[]
 }
 
 export interface StudInfoSortedType {
@@ -36,6 +30,7 @@ export interface StudInfoSortedType {
   age: string
   yearLevel: string
   scholarship: string
+  email: string
 }
 
 export interface ResultType {
