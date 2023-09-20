@@ -15,5 +15,5 @@ export function retrieveImageFBStorage(photoUrl: string) {
   const PATH_DIVIDER = "/o/"
   const PARAMS = "?alt=media"
   const PATH = photoUrl.replace(/\//g, "%2F")
-  return `${BASE}${BASE_DIVIDER}${STORAGE_BUCKET}${PATH_DIVIDER}${PATH}${PARAMS}`
+  return `${BASE}${BASE_DIVIDER}${STORAGE_BUCKET}${PATH_DIVIDER}images%2F${PATH}${PARAMS}`
 }
