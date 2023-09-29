@@ -38,24 +38,6 @@ export interface ResultType {
   type?: "first" | "last" | "initial"
 }
 
-export interface ChatConfigType extends FromDatabase {
-  theme: string
-  dateModified: number
-  participants: string[]
-}
-
-export interface ChatType
-  extends Pick<CreatedFile, "dateCreated">,
-    FromDatabase {
-  type: "text" | "photo" | "document" | "video" | "audio"
-  content: string
-  email: string
-}
-
-export interface ClientChatType extends ChatConfigType {
-  inbox: ChatType[]
-}
-
 export interface DateType {
   date?: number
   month: number
