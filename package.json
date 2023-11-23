@@ -1,31 +1,27 @@
 {
-  "name": "cics",
-  "version": "0.0.1",
-  "description": "monorepo for handling cics web and mobile",
+  "name": "cares",
+  "version": "1.0.0",
+  "description": "Monorepo for CARES web and mobile",
   "scripts": {
     "dev": "npm run dev --workspaces --if-present",
     "start": "npm run start --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
-    "build": "npm run build --workspaces --if-present",
-    "emulator": "npm run emulator --workspace=cics-mobile-client",
-    "buildApp": "npm run build --workspace=cics-mobile-client",
-    "apprelease": "cd \"./packages/cics-mobile-client/android/app/build/outputs/apk/release\" && explorer ."
+    "build": "npm run build --workspaces --if-present"
   },
+  "author": "nikitimi",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Capstone-2023-2024/cics.git"
+    "url": "git+https://github.com/Capstone-2023-2024/cares.git"
   },
-  "author": "realsyntexia",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Capstone-2023-2024/cics/issues"
+    "url": "https://github.com/Capstone-2023-2024/cares/issues"
   },
-  "homepage": "https://github.com/Capstone-2023-2024/cics#readme",
+  "homepage": "https://github.com/Capstone-2023-2024/cares#readme",
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "eslint-plugin-jest": "^27.2.3",
     "tailwindcss": "^3.3.2"
   }
 }

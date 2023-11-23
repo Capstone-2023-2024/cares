@@ -1,6 +1,9 @@
-[submodule "packages/cics-mobile-client"]
-	path = packages/cics-mobile-client
-	url = git@github.com:Capstone-2023-2024/cics-mobile-client.git
-[submodule "packages/cics-web-admin"]
-	path = packages/cics-web-admin
-	url = git@github.com:Capstone-2023-2024/cics-web-admin.git
+[submodule "packages/libs/common"]
+	path = packages/libs/common
+	url = git@github.com:Capstone-2023-2024/cares-library.common.git
+[submodule "packages/web/frontend"]
+	path = packages/web/frontend
+	url = git@github.com:Capstone-2023-2024/cares-web-frontend.git
+[submodule "packages/mobile"]
+	path = packages/mobile
+	url = git@github.com:Capstone-2023-2024/cares-mobile.git
