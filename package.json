@@ -4,8 +4,7 @@
   "description": "Monorepo for CARES web and mobile",
   "scripts": {
     "dev": "npm run dev --workspace=frontend",
-    "start": "npm run start --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present",
+    "lint:web": "npm run lint --workspace=frontend",
     "build": "npm run build --workspaces --if-present"
   },
   "author": "nikitimi",
