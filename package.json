@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Monorepo for CARES web and mobile",
   "scripts": {
-    "dev": "npm run dev --workspace=frontend",
-    "lint:web": "npm run lint --workspace=frontend",
-    "build": "npm run build --workspace=typescript && npm run build --workspace=frontend",
+    "dev": "npm run dev --workspace=cares-web-frontend",
+    "lint:web": "npm run lint --workspace=cares-web-frontend",
+    "build": "npm run build --workspace=typescript && npm run build --workspace=cares-web-frontend",
     "start": "npm run build && npm run dev"
   },
   "author": "nikitimi",
@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/Capstone-2023-2024/cares#readme",
   "workspaces": [
-    "packages/web/cares-web-frontend/*",
-    "packages/libs/typescript/*",
-    "packages/web/*"
+    "packages/web/cares-web-frontend",
+    "packages/libs/typescript"
   ]
 }
