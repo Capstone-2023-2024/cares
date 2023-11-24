@@ -1,8 +1,8 @@
-[submodule "packages/libs/cares-library-common"]
-	path = packages/libs/common
-	url = git@github.com:Capstone-2023-2024/cares-library-common.git
+[submodule "packages/libs/typescript"]
+	path = packages/libs/typescript
+	url = git@github.com:Capstone-2023-2024/typescript.git
 [submodule "packages/web/cares-web-frontend"]
-	path = packages/web/frontend
+	path = packages/web/cares-web-frontend
 	url = git@github.com:Capstone-2023-2024/cares-web-frontend.git
 [submodule "packages/cares-mobile"]
 	path = packages/mobile

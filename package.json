@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/Capstone-2023-2024/cares#readme",
   "workspaces": [
-    "packages/web/frontend/*",
-    "packages/libs/common/*",
+    "packages/web/cares-web-frontend/*",
+    "packages/libs/typescript/*",
     "packages/web/*"
   ]
 }
