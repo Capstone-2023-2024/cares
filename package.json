@@ -4,9 +4,10 @@
   "description": "Monorepo for CARES web and mobile",
   "scripts": {
     "dev": "npm run dev --workspace=cares-web-frontend",
-    "lint:web": "npm run lint --workspace=cares-web-frontend",
     "build": "npm run build --workspace=typescript && npm run build --workspace=cares-web-frontend",
-    "start": "npm run build && npm run dev"
+    "lint:web": "npm run lint --workspace=cares-web-frontend",
+    "start:web": "npm run build && npm run dev",
+    "start:mobile": "if exist \"./packages/cares-mobile\" cd \"./packages/cares-mobile\" && npm run start"
   },
   "author": "nikitimi",
   "license": "MIT",
