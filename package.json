@@ -22,5 +22,8 @@
   "workspaces": [
     "packages/web/cares-web-frontend",
     "packages/libs/typescript"
-  ]
+  ],
+  "dependencies": {
+    "tailwindcss": "^3.3.5"
+  }
 }
