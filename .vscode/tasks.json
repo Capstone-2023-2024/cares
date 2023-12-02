@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0",
+  "presentation": {
+    "echo": false,
+    "reveal": "always",
+    "focus": false,
+    "panel": "dedicated",
+    "showReuseMessage": true
+  },
+  "tasks": [
+    // {
+    //   "label": "Create terminals",
+    //   "dependsOn": ["web", "mobile"],
+    //   // Mark as the default build task so cmd/ctrl+shift+b will create them
+    //   "group": {
+    //     "kind": "build",
+    //     "isDefault": true
+    //   },
+    //   // Try start the task on folder open
+    //   "runOptions": {
+    //     "runOn": "folderOpen"
+    //   }
+    // },
+    // {
+    //   // The name that shows up in terminal tab
+    //   "label": "init",
+    //   // The task will launch a shell
+    //   "type": "shell",
+    //   "command": "echo PWD=$PWD workspaceFolder=${workspaceFolder}",
+    //   // Set the shell type
+    //   "options": {
+    //     "cwd": "${workspaceFolder}\\packages\\web\\cares-web-frontend"
+    //   },
+    //   // Mark as a background task to avoid the spinner animation on the terminal tab
+    //   "isBackground": true,
+    //   "runOptions": {
+    //     "runOn": "folderOpen"
+    //   }
+    //   // "problemMatcher": [],
+    //   // Create the tasks in a terminal group
+    //   // "presentation": {
+    //   //   "group": "my-group"
+    //   // }
+    // }
+    // {
+    //   "label": "web",
+    //   "type": "shell",
+    //   "command": "npm run start:web",
+    //   "isBackground": true,
+    //   "problemMatcher": [],
+    //   "presentation": {
+    //     "group": "my-group"
+    //   }
+    // },
+    // {
+    //   "label": "mobile",
+    //   "type": "shell",
+    //   "dependsOn": ["web"],
+    //   "command": "npm run start:mobile",
+    //   "isBackground": true,
+    //   "problemMatcher": [],
+    //   "presentation": {
+    //     "group": "my-group"
+    //   }
+    // }
+    // {
+    //   "label": "Second",
+    //   "type": "shell",
+    //   "command": "",
+    //   "options": {
+    //     "shell": {
+    //       "executable": "git status",
+    //       "args": []
+    //     }
+    //   },
+    //   "isBackground": true,
+    //   "problemMatcher": []
+    // "presentation": {
+    //   "group": "my-group"
+    // }
+    // }
+  ]
+}

@@ -4,6 +4,6 @@
 [submodule "packages/web/cares-web-frontend"]
 	path = packages/web/cares-web-frontend
 	url = git@github.com:Capstone-2023-2024/cares-web-frontend.git
-[submodule "packages/cares-mobile"]
-	path = packages/cares-mobile
+[submodule "packages/mobile/cares-mobile"]
+	path = packages/mobile/cares-mobile
 	url = git@github.com:Capstone-2023-2024/cares-mobile.git

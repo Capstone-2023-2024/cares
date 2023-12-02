@@ -1,8 +1,6 @@
 node_modules
 *.log
 .env
-.env.*
-.vscode
 test
 backend
 .vercel

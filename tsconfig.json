@@ -1,0 +1,14 @@
+{
+  "references": [
+    {
+      "path": "packages/libs/typescript"
+    },
+    {
+      "path": "packages/web/cares-web-frontend"
+    },
+    {
+      "path": "packages/mobile/cares-mobile"
+    }
+  ],
+  "exclude": ["node_modules"]
+}
