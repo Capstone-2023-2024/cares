@@ -1,6 +1,6 @@
-[submodule "packages/libs/typescript"]
-	path = packages/libs/typescript
-	url = git@github.com:Capstone-2023-2024/typescript.git
+[submodule "packages/libs/@cares/common"]
+	path = packages/libs/@cares/common
+	url = git@github.com:Capstone-2023-2024/@cares/common.git
 [submodule "packages/web/cares-web-frontend"]
 	path = packages/web/cares-web-frontend
 	url = git@github.com:Capstone-2023-2024/cares-web-frontend.git

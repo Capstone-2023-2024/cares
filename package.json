@@ -1,13 +1,14 @@
 {
   "name": "cares",
+  "private": true,
   "version": "1.0.0",
   "description": "Monorepo for CARES web and mobile",
   "scripts": {
     "dev": "npm run dev --workspace=cares-web-frontend",
-    "build": "npm run clean-lib --workspace=typescript && npm run build --workspace=cares-web-frontend",
+    "build": "npm run clean-lib --workspace=@cares/common && npm run build --workspace=cares-web-frontend",
     "lint:web": "npm run lint --workspace=cares-web-frontend",
     "start:web": "npm run build && npm run dev",
-    "start:mobile": "npm run clean-lib --workspace=typescript && npm run start --workspace=cares-mobile",
+    "start:mobile": "npm run clean-lib --workspace=@cares/common && npm run start --workspace=cares-mobile",
     "postinstall": "patch-package"
   },
   "author": "nikitimi",
@@ -23,10 +24,9 @@
   "workspaces": [
     "packages/web/cares-web-frontend",
     "packages/mobile/cares-mobile",
-    "packages/libs/typescript"
+    "packages/libs/@cares/common"
   ],
-  "dependencies": {
-    "eslint-plugin-jest": "^27.6.0",
-    "tailwindcss": "3.3.2"
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }

@@ -1,7 +1,7 @@
 {
   "references": [
     {
-      "path": "packages/libs/typescript"
+      "path": "packages/libs/@cares-common"
     },
     {
       "path": "packages/web/cares-web-frontend"
