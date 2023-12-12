@@ -8,8 +8,7 @@
     "build": "npm run clean-lib --workspace=@cares/common && npm run build --workspace=cares-web-frontend",
     "lint:web": "npm run lint --workspace=cares-web-frontend",
     "start:web": "npm run build && npm run dev",
-    "start:mobile": "npm run clean-lib --workspace=@cares/common && npm run start --workspace=cares-mobile",
-    "postinstall": "patch-package"
+    "start:mobile": "npm run clean-lib --workspace=@cares/common && npm run start --workspace=cares-mobile"
   },
   "author": "nikitimi",
   "license": "MIT",
@@ -23,10 +22,10 @@
   "homepage": "https://github.com/Capstone-2023-2024/cares#readme",
   "workspaces": [
     "packages/web/cares-web-frontend",
-    "packages/mobile/cares-mobile",
     "packages/libs/@cares/common"
   ],
-  "devDependencies": {
-    "tailwindcss": "^3.3.2"
+  "dependencies": {
+    "tailwindcss": "^3.3.2",
+    "react-native": "^0.72.7"
   }
 }
